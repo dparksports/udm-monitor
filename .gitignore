@@ -1,0 +1,16 @@
+# build artifacts
+[Bb]in/
+[Oo]bj/
+publish/
+*.user
+.vs/
+
+# runtime logs (netmon.ps1 and other sources stay tracked)
+*.log
+logs/events.jsonl*
+
+# third-party driver payloads — not ours to redistribute, and heavy binaries
+driver/
+
+# generated at runtime next to the exe
+udmmonitor.json

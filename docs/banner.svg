@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" role="img" aria-label="UdmMonitor banner">
+  <title>UdmMonitor — out-of-band watchdog for the UDM Pro</title>
+  <rect width="880" height="190" rx="10" fill="#0d1117"/>
+
+  <!-- tray-app logo: blue pulse circle -->
+  <circle cx="52" cy="58" r="26" fill="#0078d7"/>
+  <polyline points="34,58 44,58 49,44 56,70 61,52 66,58 70,58"
+            fill="none" stroke="#ffffff" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="92" y="66" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="32" font-weight="bold" fill="#ffffff">UdmMonitor</text>
+  <text x="94" y="92" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="13" fill="#8b949e">out-of-band watchdog for the UDM Pro &#183; native Windows tray app</text>
+
+  <!-- badge row 1 -->
+  <g font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <!-- monitoring | out-of-band -->
+    <g transform="translate(30,120)">
+      <rect width="72" height="20" fill="#555"/><rect x="72" width="78" height="20" fill="#007ec6"/>
+      <text x="36" y="14" fill="#fff" text-anchor="middle">monitoring</text>
+      <text x="111" y="14" fill="#fff" text-anchor="middle">out-of-band</text>
+    </g>
+    <!-- alerts | ntfy -> windows toasts -->
+    <g transform="translate(188,120)">
+      <rect width="48" height="20" fill="#555"/><rect x="48" width="142" height="20" fill="#4c1"/>
+      <text x="24" y="14" fill="#fff" text-anchor="middle">alerts</text>
+      <text x="119" y="14" fill="#fff" text-anchor="middle">ntfy &#8594; windows toasts</text>
+    </g>
+    <!-- icmp probe | debounced -->
+    <g transform="translate(344,120)">
+      <rect width="70" height="20" fill="#555"/><rect x="70" width="66" height="20" fill="#007ec6"/>
+      <text x="35" y="14" fill="#fff" text-anchor="middle">icmp probe</text>
+      <text x="103" y="14" fill="#fff" text-anchor="middle">debounced</text>
+    </g>
+    <!-- heartbeat | 25h silence watch -->
+    <g transform="translate(490,120)">
+      <rect width="64" height="20" fill="#555"/><rect x="64" width="122" height="20" fill="#fe7d37"/>
+      <text x="32" y="14" fill="#fff" text-anchor="middle">heartbeat</text>
+      <text x="125" y="14" fill="#fff" text-anchor="middle">25 h silence watch</text>
+    </g>
+  </g>
+
+  <!-- badge row 2 -->
+  <g font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <!-- engine | C# .NET 10 -->
+    <g transform="translate(30,150)">
+      <rect width="48" height="20" fill="#555"/><rect x="48" width="84" height="20" fill="#8a2be2"/>
+      <text x="24" y="14" fill="#fff" text-anchor="middle">engine</text>
+      <text x="90" y="14" fill="#fff" text-anchor="middle">C# &#183; .NET 10</text>
+    </g>
+    <!-- config | cam-watchdog parity -->
+    <g transform="translate(166,150)">
+      <rect width="48" height="20" fill="#555"/><rect x="48" width="130" height="20" fill="#dfb317"/>
+      <text x="24" y="14" fill="#111" text-anchor="middle">config</text>
+      <text x="113" y="14" fill="#111" text-anchor="middle">cam-watchdog parity</text>
+    </g>
+    <!-- history | jsonl ring 5MB -->
+    <g transform="translate(344,150)">
+      <rect width="54" height="20" fill="#555"/><rect x="54" width="154" height="20" fill="#007ec6"/>
+      <text x="27" y="14" fill="#fff" text-anchor="middle">history</text>
+      <text x="131" y="14" fill="#fff" text-anchor="middle">jsonl ring &#183; 5 MB rotate</text>
+    </g>
+    <!-- license | Apache-2.0 -->
+    <g transform="translate(530,150)">
+      <rect width="54" height="20" fill="#555"/><rect x="54" width="72" height="20" fill="#4c1"/>
+      <text x="27" y="14" fill="#fff" text-anchor="middle">license</text>
+      <text x="90" y="14" fill="#fff" text-anchor="middle">Apache-2.0</text>
+    </g>
+  </g>
+</svg>

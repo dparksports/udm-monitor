@@ -1,0 +1,11 @@
+# scripts destined for the UDM Pro must stay LF — CRLF shebangs break on ubios
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.svg text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.cs text eol=crlf
+*.xaml text eol=crlf
+*.csproj text eol=crlf
+*.slnx text eol=crlf

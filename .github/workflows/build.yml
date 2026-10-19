@@ -1,0 +1,22 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Build
+        run: dotnet build app/UdmMonitor.slnx -c Release
+
+      - name: Smoke test (20 s headless engine run)
+        run: dotnet run --project app/src/UdmMonitor.App/UdmMonitor.App.csproj -c Release -- --smoke

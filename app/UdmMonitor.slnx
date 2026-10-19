@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/UdmMonitor.App/UdmMonitor.App.csproj" />
+    <Project Path="src/UdmMonitor.Core/UdmMonitor.Core.csproj" />
+  </Folder>
+</Solution>
